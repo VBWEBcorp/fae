@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"c:/Users/camil/Desktop/cursor\")",
+      "Read(//c/Users/camil/Desktop/cursor/**)",
+      "Bash(git clone *)",
+      "PowerShell(Get-ChildItem \"c:/Users/camil/Desktop/cursor/fae-tmp\" -Force | Where-Object { $_.Name -ne \".claude\" } | ForEach-Object { Move-Item -Path $_.FullName -Destination \"c:/Users/camil/Desktop/cursor/FAE/\" -Force }; Remove-Item \"c:/Users/camil/Desktop/cursor/fae-tmp\" -Recurse -Force; Get-ChildItem \"c:/Users/camil/Desktop/cursor/FAE\" -Force | Select-Object Name)",
+      "Bash(npm install *)"
+    ]
+  }
+}
