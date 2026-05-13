@@ -57,7 +57,7 @@ export function AboutSection({ showLink = true }: { showLink?: boolean } = {}) {
           className="relative aspect-[5/2] w-full overflow-hidden rounded-[2rem] bg-[#111]/5 ring-1 ring-[#111]/8 dark:bg-white/5 dark:ring-white/10 sm:aspect-[16/6]"
         >
           <Image
-            src="https://i.ibb.co/Z6FVHy7L/cours-clavier-synthetiseur.jpg"
+            src="https://i.ibb.co/B52n3w5r/cours-piano-accompagne.jpg"
             alt="Cours de piano avec Raphael Raholijaona"
             fill
             sizes="(min-width:1024px) 1200px, 90vw"

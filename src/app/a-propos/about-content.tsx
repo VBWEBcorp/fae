@@ -35,10 +35,11 @@ const defaults = {
     },
   ],
   gallery: [
-    'https://i.ibb.co/Z6FVHy7L/cours-clavier-synthetiseur.jpg',
-    'https://i.ibb.co/pjLJHnKz/1911c2fa-3163-45c5-953f-ed89d12c74d0-691dfa698a477968376604.jpg',
-    'https://images.unsplash.com/photo-1601312378427-822b2b41da35?auto=format&fit=crop&w=900&q=80',
-    'https://images.unsplash.com/photo-1465821185615-20b3c2fbf41b?auto=format&fit=crop&w=900&q=80',
+    'https://i.ibb.co/kgN68dyd/piano-1.jpg',
+    'https://i.ibb.co/k2HjZg0p/piano-2.jpg',
+    'https://i.ibb.co/LdXnWxKh/piano-2.png',
+    'https://i.ibb.co/pjLJHnKz/piano-3.jpg',
+    'https://i.ibb.co/Z6FVHy7L/cours-piano-accompagne3.jpg',
   ],
 }
 
@@ -149,7 +150,7 @@ export function AboutContent() {
             </div>
           </div>
 
-          <div className="mt-16 grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-4">
+          <div className="mt-16 grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-5">
             {gallery.map((src: string, i: number) => (
               <motion.div
                 key={i}
@@ -163,7 +164,7 @@ export function AboutContent() {
                   src={src}
                   alt=""
                   fill
-                  sizes="(min-width:768px) 25vw, 50vw"
+                  sizes="(min-width:768px) 20vw, 50vw"
                   loading="lazy"
                   className="object-cover transition-transform duration-700 hover:scale-[1.04]"
                 />

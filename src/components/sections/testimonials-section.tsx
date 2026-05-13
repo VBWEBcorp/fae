@@ -113,13 +113,13 @@ function VideoCard({ t, i }: { t: VideoTestimonial; i: number }) {
 
         {/* Durée */}
         {t.duration ? (
-          <span className="absolute right-3 top-3 rounded-full bg-[#111] px-2 py-0.5 font-mono text-[10px] text-white backdrop-blur-sm dark:bg-white dark:text-[#111]">
+          <span className="absolute right-3 top-3 rounded-full bg-[#111] px-2 py-0.5 font-mono text-[10px] text-white dark:bg-white dark:text-[#111]">
             {t.duration}
           </span>
         ) : null}
 
         {/* Citation en bas */}
-        <div className="absolute inset-x-0 bottom-0 border-t border-[#111]/10 bg-white/90 p-4 backdrop-blur-sm dark:border-white/10 dark:bg-[#1c1c1c]/95">
+        <div className="absolute inset-x-0 bottom-0 border-t border-[#111]/10 bg-white p-4 dark:border-white/10 dark:bg-[#1c1c1c]">
           <p className="line-clamp-3 font-display text-[13px] leading-snug text-[#111] dark:text-white sm:text-[14px]">
             « {t.text} »
           </p>
